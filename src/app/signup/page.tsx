@@ -16,7 +16,7 @@ function ErrMsg({ id, error }: { id: string; error: FormError }) {
   }
 }
 
-export default function LoginPage() {
+export default function SignUpPage() {
   const [disabled, setDisabled] = useState<boolean>(false);
   const [focusedElement, setFocusedElement] = useState<string>("");
   const [error, setError] = useState<FormError>({
